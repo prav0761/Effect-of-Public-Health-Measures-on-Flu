@@ -1,0 +1,9 @@
+library (readr)
+
+data2020="https://raw.githubusercontent.com/OxCGRT/covid-policy-tracker/master/data/United%20States/OxCGRT_USA_differentiated_withnotes_2020.csv"
+data2021 = "https://raw.githubusercontent.com/OxCGRT/covid-policy-tracker/master/data/United%20States/OxCGRT_USA_differentiated_withnotes_2021.csv"
+data2022= "https://raw.githubusercontent.com/OxCGRT/covid-policy-tracker/master/data/United%20States/OxCGRT_USA_differentiated_withnotes_2022.csv"
+
+csv20<-read_csv(url(data2020))
+csv21<-read_csv(url(data2021))
+csv22<-read_csv(url(data2022))
