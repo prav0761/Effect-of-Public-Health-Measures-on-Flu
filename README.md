@@ -4,20 +4,12 @@
 Repository Structure
 --------------------
 
-    |- args           # args for sh file
-    |- captions_transform# scripts for text augmentations
-    |- image_transform# scripts for image augmentations
-    |- dataset.py # scripts for dataset loaders
-    |- eval_reproduce.py # scripts for reproducing results and evaluation
-    |- finetune_main.py  # scripts for finetuning on flickr30k_dataset for cross modal tasks
-    |- finetune_main_travel.py  # scripts for finetuning on flickr travel dataset for visaluzations img-sim, txt-img retrieval
-    |- lars.py          # lars optimizer
-    |- logger.py      # scripts for logger functions
-    |- main.py   # scripts for pretraining on flickr30k(main process)
-    |- metrics.py # scripts for loss functions, optimizer functions
-    |- models.py       # backbone models and finetune models
-    |- LICENSE          # license
-    |- README.md        # the top level description of content and commands to reproduce results, data download instructions
-    |- train_fns.py  # contains scripts for training, validation functions
-    |- utils.py #   # scripts for helper functions and metrics calculation code
+    |- Heirarchial Bayesian model attempt.ipynb           # Attempt of Bayesian Model which didn't work
+    |- ILINet.csv, Mask API, OxCGRT, SVI2020_US_COUNTY.csv, StateToStateUSA.py, finaldf.csv # Different data sources and ETL scripts
+    |- Time Series Model Attempt.ipynb     # Attempt of Time series Model which didn't work
+    |- ILI_VIZ.ipynb #  General Data Visualizations
+    |- correlation-lags.ipynb # Correlations analysis and visualization
+    |- correlation.ipynb  # Correlations analysis and visualization for features lags
+    |- flmer-baseline.ipynb  # Linear Mixed effects model baseline
+    |- lmer_optimized_model.ipynb        # Linear Mixed effects model Optimized
     
