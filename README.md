@@ -34,5 +34,12 @@ This model is hierarchical because the fixed effects are common across all state
 
 We used the r2 score as a model evaluation, The r2 score is suitable because we can assess if the public policies can explain the variance present in the flu transmission. 
 
+## Result
+
+Results: Influenza burden was significantly related to school preventative policies, mask-wearing prevalence, and community mobility levels four weeks prior. Increasing school preventative policies  from moderate to high levels was associated with 14% lower ILIp, increasing mask-wearing by 10% was associated with 7.7% lower ILIp, and increasing community mobility by 10% was associated with 3.9% higher ILIp. We estimated significant variability in the magnitude of effects across states but found that the direction of the effects was largely consistent.
+Conclusions: 
+
+## Findings
+Our results suggest that school-based policies, face masks, and efforts to reduce community mobility could help mitigate the spread of seasonal or pandemic influenza. However, the implementation of COVID-19 NPIs included in this analysis is often correlated, and a deeper analysis is required to obtain precise individual efficacy estimates. We are conducting a follow-up analysis to validate our findings using influenza hospital admissions as the primary outcome.
 
     
